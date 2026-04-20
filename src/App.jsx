@@ -10,7 +10,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortOrder, setSortOrder] = useState("asc");
 useEffect(() => {
-  const ngrokUrl = " https://rodless-rapidly-delaney.ngrok-free.dev";
+  const ngrokUrl = "https://ecom-product-api-er9n.onrender.com";
   const headers = {
     "Content-Type": "application/json",
     "ngrok-skip-browser-warning": "any-value"  
